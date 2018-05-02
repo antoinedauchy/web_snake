@@ -1,0 +1,112 @@
+body
+{
+    background-color: rgb(20, 175, 142);
+    z-index: 1;
+}
+
+#title
+{
+    position: absolute;
+    color: rgb(10, 73, 0);
+    font-size: 5vw;
+    font-weight: bold;
+    margin-left: 45vw;
+    z-index: 2;
+}
+
+#names
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(162, 252, 149);
+    font-size: 3vw;
+    font-weight: bold;
+    background-color: rgba(32, 90, 30, 0.7);
+    width: 51vw;
+    margin-left: 25vw;
+    margin-top: 4.95vw;
+    z-index: 2;
+}
+
+#values
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(162, 252, 149);
+    font-size: 3vw;
+    font-weight: bold;
+    background-color: rgba(32, 90, 30, 0.7);
+    width: 51vw;
+    margin-left: 25vw;
+    margin-top: 8.4vw;
+    z-index: 2;
+}
+
+#canvas
+{
+    position: absolute;
+    border-width: 0.5vw;
+    border-style: solid;
+    border-color: rgb(32, 90, 30);
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 12vw;
+    z-index: 2;
+}
+
+#canvas2
+{
+    position: absolute;
+    margin-left: 76.5vw;
+    margin-top: 12vw;
+    border-width: 0.5vw;
+    border-style: solid;
+    border-color: rgb(32, 90, 30);
+    width: 2.342vw;
+    z-index: 2;
+}
+
+#heart
+{
+    position: absolute;
+    margin-left: 77.16vw;
+    margin-top: 20.8vw;
+    width: 2vw;
+    z-index: 3;
+}
+
+#skill
+{
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 17vw;
+    font-size: 0vw;
+    color: rgb(208, 255, 0);
+    font-weight: bold;
+    z-index: 4;
+}
+
+#collision
+{
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 8vw;
+    font-size: 0vw;
+    color: "red";
+    font-weight: bold;
+    z-index: 4;
+}
+
+#combo
+{
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: 6vw;
+    font-size: 0vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    z-index: 5;
+}
+
